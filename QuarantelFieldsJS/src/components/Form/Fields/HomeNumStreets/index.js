@@ -1,6 +1,6 @@
 import React from "react";
 import TextField from "@material-ui/core/TextField";
-import cogoToast from "cogo-toast";
+import CogoToast from "cogo-toast";
 import InputLabel from "@material-ui/core/InputLabel";
 
 /**@param street - the selcted street
@@ -29,11 +29,12 @@ const HomeNumField = ({ streetIndex, setHomeNum, homeNum, errors }) => {
         אנא בחר מספר בית
       </InputLabel>
       <TextField
+        required
         label="מספר בית"
         variant="outlined"
         value={homeNum}
         type="text"
-        onClick={(e) => !streetIndex && cogoToast.error("אנא הזן רחוב")}
+        onClick={(e) => !streetIndex && CogoToast.error("אנא הזן רחוב")}
         onChange={(e) => setHomeNum(e.target.value)}
         disabled={!streetIndex}
         error={errors}

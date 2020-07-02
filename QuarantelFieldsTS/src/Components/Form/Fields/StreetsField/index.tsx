@@ -43,7 +43,9 @@ const StreetsField: React.FC<StreetsProps> = ({
         disabled={!cityIndex}
         variant="outlined"
         error={errors}>
-        {STREETS.STREETS.map(
+        {STREETS.STREETS.sort((street1, street2) =>
+          street1.STR_NAME.localeCompare(street2.STR_NAME)
+        ).map(
           (street) =>
             street.STR_ID.slice(-street.STR_ID.length, -4) ===
               cityIndex.toString() && (

@@ -8,9 +8,8 @@ import InputLabel from "@material-ui/core/InputLabel";
  * @param setCityIndex - the function that changes the city
  */
 const Form = ({ setCityIndex, cityIndex, errors }) => {
-  console.log();
   const handleChange = (event) => {
-    console.log(event.target.value);
+    // console.log(event.target.value);
     setCityIndex(event.target.value);
   };
 
@@ -30,6 +29,7 @@ const Form = ({ setCityIndex, cityIndex, errors }) => {
         value={cityIndex}
         onChange={handleChange}
         variant="outlined"
+        required
         error={errors}>
         {CITIES.CITIES.sort((city1, city2) =>
           city1.SETL_NAME.localeCompare(city2.SETL_NAME)

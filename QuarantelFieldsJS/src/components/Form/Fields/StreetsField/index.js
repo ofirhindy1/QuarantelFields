@@ -10,7 +10,7 @@ import InputLabel from "@material-ui/core/InputLabel";
  * @param cityIndex - the selcted city index (as in the provided indexes)
  */
 const StreetsField = ({ streetIndex, setStreetIndex, cityIndex, errors }) => {
-  console.log(streetIndex);
+  // console.log(streetIndex);
 
   const handleChange = (event) => {
     setStreetIndex(event.target.value);
@@ -35,7 +35,9 @@ const StreetsField = ({ streetIndex, setStreetIndex, cityIndex, errors }) => {
         disabled={!cityIndex}
         variant="outlined"
         error={errors}>
-        {STREETS.STREETS.map(
+        {STREETS.STREETS.sort((street1, street2) =>
+          street1.STR_NAME.localeCompare(street2.STR_NAME)
+        ).map(
           (street) =>
             street.STR_ID.slice(-street.STR_ID.length, -4) === cityIndex && (
               <MenuItem value={street.STR_ID} key={street.STR_ID}>
