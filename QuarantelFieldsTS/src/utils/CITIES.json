@@ -1,0 +1,1624 @@
+﻿{
+  "CITIES": [
+    {
+      "SETL_NAME": "",
+      "SETL_CODE": "0"
+    },
+    {
+      "SETL_NAME": "שדה משה",
+      "SETL_CODE": "18"
+    },
+    {
+      "SETL_NAME": "באר אורה",
+      "SETL_CODE": "21"
+    },
+    {
+      "SETL_NAME": "ראש פינה",
+      "SETL_CODE": "26"
+    },
+    {
+      "SETL_NAME": "מזכרת בתיה",
+      "SETL_CODE": "28"
+    },
+    {
+      "SETL_NAME": "אופקים",
+      "SETL_CODE": "31"
+    },
+    {
+      "SETL_NAME": "אליכין",
+      "SETL_CODE": "41"
+    },
+    {
+      "SETL_NAME": "מטולה",
+      "SETL_CODE": "43"
+    },
+    {
+      "SETL_NAME": "יבנאל",
+      "SETL_CODE": "46"
+    },
+    {
+      "SETL_NAME": "כפר תבור",
+      "SETL_CODE": "47"
+    },
+    {
+      "SETL_NAME": "מנחמיה",
+      "SETL_CODE": "48"
+    },
+    {
+      "SETL_NAME": "עתלית",
+      "SETL_CODE": "53"
+    },
+    {
+      "SETL_NAME": "נחושה",
+      "SETL_CODE": "59"
+    },
+    {
+      "SETL_NAME": "יד רמב\"ם",
+      "SETL_CODE": "64"
+    },
+    {
+      "SETL_NAME": "מגדל",
+      "SETL_CODE": "65"
+    },
+    {
+      "SETL_NAME": "אשדוד",
+      "SETL_CODE": "70"
+    },
+    {
+      "SETL_NAME": "בלפוריה",
+      "SETL_CODE": "94"
+    },
+    {
+      "SETL_NAME": "בית אלפא",
+      "SETL_CODE": "95"
+    },
+    {
+      "SETL_NAME": "יגור",
+      "SETL_CODE": "96"
+    },
+    {
+      "SETL_NAME": "כפר מל\"ל",
+      "SETL_CODE": "98"
+    },
+    {
+      "SETL_NAME": "מצפה רמון",
+      "SETL_CODE": "99"
+    },
+    {
+      "SETL_NAME": "תל עדשים",
+      "SETL_CODE": "103"
+    },
+    {
+      "SETL_NAME": "חופית",
+      "SETL_CODE": "115"
+    },
+    {
+      "SETL_NAME": "רמת ישי",
+      "SETL_CODE": "122"
+    },
+    {
+      "SETL_NAME": "גת רימון",
+      "SETL_CODE": "128"
+    },
+    {
+      "SETL_NAME": "כפר ברוך",
+      "SETL_CODE": "132"
+    },
+    {
+      "SETL_NAME": "שדה יעקב",
+      "SETL_CODE": "142"
+    },
+    {
+      "SETL_NAME": "תל מונד",
+      "SETL_CODE": "154"
+    },
+    {
+      "SETL_NAME": "עין ורד",
+      "SETL_CODE": "157"
+    },
+    {
+      "SETL_NAME": "בית חנן",
+      "SETL_CODE": "159"
+    },
+    {
+      "SETL_NAME": "גן יבנה",
+      "SETL_CODE": "166"
+    },
+    {
+      "SETL_NAME": "כפר יונה",
+      "SETL_CODE": "168"
+    },
+    {
+      "SETL_NAME": "פרדסייה",
+      "SETL_CODE": "171"
+    },
+    {
+      "SETL_NAME": "נטעים",
+      "SETL_CODE": "174"
+    },
+    {
+      "SETL_NAME": "אביחיל",
+      "SETL_CODE": "175"
+    },
+    {
+      "SETL_NAME": "כפר ביל\"ו",
+      "SETL_CODE": "177"
+    },
+    {
+      "SETL_NAME": "אבן יהודה",
+      "SETL_CODE": "182"
+    },
+    {
+      "SETL_NAME": "ירקונה",
+      "SETL_CODE": "183"
+    },
+    {
+      "SETL_NAME": "כפר ויתקין",
+      "SETL_CODE": "190"
+    },
+    {
+      "SETL_NAME": "הדר עם",
+      "SETL_CODE": "191"
+    },
+    {
+      "SETL_NAME": "כפר חיים",
+      "SETL_CODE": "193"
+    },
+    {
+      "SETL_NAME": "קדימה-צורן",
+      "SETL_CODE": "195"
+    },
+    {
+      "SETL_NAME": "אשדות יעקב (איחוד)",
+      "SETL_CODE": "199"
+    },
+    {
+      "SETL_NAME": "בית ינאי",
+      "SETL_CODE": "200"
+    },
+    {
+      "SETL_NAME": "רמות השבים",
+      "SETL_CODE": "206"
+    },
+    {
+      "SETL_NAME": "גבעת ח\"ן",
+      "SETL_CODE": "207"
+    },
+    {
+      "SETL_NAME": "מוצא עילית",
+      "SETL_CODE": "208"
+    },
+    {
+      "SETL_NAME": "גני עם",
+      "SETL_CODE": "218"
+    },
+    {
+      "SETL_NAME": "חיבת ציון",
+      "SETL_CODE": "219"
+    },
+    {
+      "SETL_NAME": "כפר ביאליק",
+      "SETL_CODE": "220"
+    },
+    {
+      "SETL_NAME": "גני תקווה",
+      "SETL_CODE": "229"
+    },
+    {
+      "SETL_NAME": "כפר ידידיה",
+      "SETL_CODE": "233"
+    },
+    {
+      "SETL_NAME": "חבצלת השרון",
+      "SETL_CODE": "235"
+    },
+    {
+      "SETL_NAME": "יקנעם עילית",
+      "SETL_CODE": "240"
+    },
+    {
+      "SETL_NAME": "נתיבות",
+      "SETL_CODE": "246"
+    },
+    {
+      "SETL_NAME": "כפר סירקין",
+      "SETL_CODE": "249"
+    },
+    {
+      "SETL_NAME": "ביתן אהרן",
+      "SETL_CODE": "252"
+    },
+    {
+      "SETL_NAME": "נופך",
+      "SETL_CODE": "257"
+    },
+    {
+      "SETL_NAME": "כפר שמריהו",
+      "SETL_CODE": "267"
+    },
+    {
+      "SETL_NAME": "טירת צבי",
+      "SETL_CODE": "268"
+    },
+    {
+      "SETL_NAME": "צור משה",
+      "SETL_CODE": "276"
+    },
+    {
+      "SETL_NAME": "שבי ציון",
+      "SETL_CODE": "282"
+    },
+    {
+      "SETL_NAME": "שדה ורבורג",
+      "SETL_CODE": "284"
+    },
+    {
+      "SETL_NAME": "בית יהושע",
+      "SETL_CODE": "288"
+    },
+    {
+      "SETL_NAME": "נהורה",
+      "SETL_CODE": "309"
+    },
+    {
+      "SETL_NAME": "כפר נטר",
+      "SETL_CODE": "316"
+    },
+    {
+      "SETL_NAME": "שאר ישוב",
+      "SETL_CODE": "324"
+    },
+    {
+      "SETL_NAME": "בית יצחק-שער חפר",
+      "SETL_CODE": "326"
+    },
+    {
+      "SETL_NAME": "אלומות",
+      "SETL_CODE": "330"
+    },
+    {
+      "SETL_NAME": "ניר צבי",
+      "SETL_CODE": "331"
+    },
+    {
+      "SETL_NAME": "ניצן",
+      "SETL_CODE": "351"
+    },
+    {
+      "SETL_NAME": "מגל",
+      "SETL_CODE": "375"
+    },
+    {
+      "SETL_NAME": "גאולים",
+      "SETL_CODE": "379"
+    },
+    {
+      "SETL_NAME": "מכמורת",
+      "SETL_CODE": "382"
+    },
+    {
+      "SETL_NAME": "בני דרור",
+      "SETL_CODE": "386"
+    },
+    {
+      "SETL_NAME": "רגבה",
+      "SETL_CODE": "390"
+    },
+    {
+      "SETL_NAME": "נווה אילן",
+      "SETL_CODE": "405"
+    },
+    {
+      "SETL_NAME": "אלוני אבא",
+      "SETL_CODE": "429"
+    },
+    {
+      "SETL_NAME": "שמרת",
+      "SETL_CODE": "432"
+    },
+    {
+      "SETL_NAME": "אודים",
+      "SETL_CODE": "446"
+    },
+    {
+      "SETL_NAME": "נורדייה",
+      "SETL_CODE": "447"
+    },
+    {
+      "SETL_NAME": "נחלים",
+      "SETL_CODE": "449"
+    },
+    {
+      "SETL_NAME": "שורש",
+      "SETL_CODE": "456"
+    },
+    {
+      "SETL_NAME": "רמת רזיאל",
+      "SETL_CODE": "460"
+    },
+    {
+      "SETL_NAME": "בית דגן",
+      "SETL_CODE": "466"
+    },
+    {
+      "SETL_NAME": "קריית עקרון",
+      "SETL_CODE": "469"
+    },
+    {
+      "SETL_NAME": "אבו גוש",
+      "SETL_CODE": "472"
+    },
+    {
+      "SETL_NAME": "דחי",
+      "SETL_CODE": "475"
+    },
+    {
+      "SETL_NAME": "אכסאל",
+      "SETL_CODE": "478"
+    },
+    {
+      "SETL_NAME": "בית ג'ן",
+      "SETL_CODE": "480"
+    },
+    {
+      "SETL_NAME": "ג'ולס",
+      "SETL_CODE": "485"
+    },
+    {
+      "SETL_NAME": "דאלית אל-כרמל",
+      "SETL_CODE": "494"
+    },
+    {
+      "SETL_NAME": "טורעאן",
+      "SETL_CODE": "498"
+    },
+    {
+      "SETL_NAME": "יפיע",
+      "SETL_CODE": "499"
+    },
+    {
+      "SETL_NAME": "ירכא",
+      "SETL_CODE": "502"
+    },
+    {
+      "SETL_NAME": "כפר כמא",
+      "SETL_CODE": "508"
+    },
+    {
+      "SETL_NAME": "עילוט",
+      "SETL_CODE": "511"
+    },
+    {
+      "SETL_NAME": "כפר מצר",
+      "SETL_CODE": "512"
+    },
+    {
+      "SETL_NAME": "עין ראפה",
+      "SETL_CODE": "514"
+    },
+    {
+      "SETL_NAME": "משהד",
+      "SETL_CODE": "520"
+    },
+    {
+      "SETL_NAME": "ניין",
+      "SETL_CODE": "523"
+    },
+    {
+      "SETL_NAME": "סאג'ור",
+      "SETL_CODE": "525"
+    },
+    {
+      "SETL_NAME": "סולם",
+      "SETL_CODE": "526"
+    },
+    {
+      "SETL_NAME": "עוזייר",
+      "SETL_CODE": "528"
+    },
+    {
+      "SETL_NAME": "עראבה",
+      "SETL_CODE": "531"
+    },
+    {
+      "SETL_NAME": "פקיעין (בוקייעה)",
+      "SETL_CODE": "536"
+    },
+    {
+      "SETL_NAME": "רומאנה",
+      "SETL_CODE": "539"
+    },
+    {
+      "SETL_NAME": "ריחאנייה",
+      "SETL_CODE": "540"
+    },
+    {
+      "SETL_NAME": "ג'סר א-זרקא",
+      "SETL_CODE": "541"
+    },
+    {
+      "SETL_NAME": "ריינה",
+      "SETL_CODE": "542"
+    },
+    {
+      "SETL_NAME": "עין אל-אסד",
+      "SETL_CODE": "546"
+    },
+    {
+      "SETL_NAME": "גנות הדר",
+      "SETL_CODE": "549"
+    },
+    {
+      "SETL_NAME": "בוסתן הגליל",
+      "SETL_CODE": "559"
+    },
+    {
+      "SETL_NAME": "אזור",
+      "SETL_CODE": "565"
+    },
+    {
+      "SETL_NAME": "יד בנימין",
+      "SETL_CODE": "577"
+    },
+    {
+      "SETL_NAME": "כפר ראש הנקרה",
+      "SETL_CODE": "579"
+    },
+    {
+      "SETL_NAME": "סביון",
+      "SETL_CODE": "587"
+    },
+    {
+      "SETL_NAME": "עשרת",
+      "SETL_CODE": "591"
+    },
+    {
+      "SETL_NAME": "ערוגות",
+      "SETL_CODE": "593"
+    },
+    {
+      "SETL_NAME": "צפרייה",
+      "SETL_CODE": "594"
+    },
+    {
+      "SETL_NAME": "מזור",
+      "SETL_CODE": "606"
+    },
+    {
+      "SETL_NAME": "קדרון",
+      "SETL_CODE": "615"
+    },
+    {
+      "SETL_NAME": "רינתיה",
+      "SETL_CODE": "616"
+    },
+    {
+      "SETL_NAME": "חדיד",
+      "SETL_CODE": "618"
+    },
+    {
+      "SETL_NAME": "משואות יצחק",
+      "SETL_CODE": "620"
+    },
+    {
+      "SETL_NAME": "עין צורים",
+      "SETL_CODE": "622"
+    },
+    {
+      "SETL_NAME": "ג'לג'וליה",
+      "SETL_CODE": "627"
+    },
+    {
+      "SETL_NAME": "כפר ברא",
+      "SETL_CODE": "633"
+    },
+    {
+      "SETL_NAME": "כפר קאסם",
+      "SETL_CODE": "634"
+    },
+    {
+      "SETL_NAME": "קלנסווה",
+      "SETL_CODE": "638"
+    },
+    {
+      "SETL_NAME": "כפר קרע",
+      "SETL_CODE": "654"
+    },
+    {
+      "SETL_NAME": "עומר",
+      "SETL_CODE": "666"
+    },
+    {
+      "SETL_NAME": "כפר טרומן",
+      "SETL_CODE": "673"
+    },
+    {
+      "SETL_NAME": "הסוללים",
+      "SETL_CODE": "677"
+    },
+    {
+      "SETL_NAME": "גבעת שמואל",
+      "SETL_CODE": "681"
+    },
+    {
+      "SETL_NAME": "נווה ימין",
+      "SETL_CODE": "686"
+    },
+    {
+      "SETL_NAME": "עין איילה",
+      "SETL_CODE": "687"
+    },
+    {
+      "SETL_NAME": "שפיר",
+      "SETL_CODE": "692"
+    },
+    {
+      "SETL_NAME": "כפר חב\"ד",
+      "SETL_CODE": "696"
+    },
+    {
+      "SETL_NAME": "בארותיים",
+      "SETL_CODE": "697"
+    },
+    {
+      "SETL_NAME": "בורגתה",
+      "SETL_CODE": "698"
+    },
+    {
+      "SETL_NAME": "ניר ישראל",
+      "SETL_CODE": "699"
+    },
+    {
+      "SETL_NAME": "ארבל",
+      "SETL_CODE": "701"
+    },
+    {
+      "SETL_NAME": "גיאה",
+      "SETL_CODE": "706"
+    },
+    {
+      "SETL_NAME": "בית זית",
+      "SETL_CODE": "710"
+    },
+    {
+      "SETL_NAME": "עזריה",
+      "SETL_CODE": "711"
+    },
+    {
+      "SETL_NAME": "חגור",
+      "SETL_CODE": "717"
+    },
+    {
+      "SETL_NAME": "ירחיב",
+      "SETL_CODE": "718"
+    },
+    {
+      "SETL_NAME": "ניר גלים",
+      "SETL_CODE": "720"
+    },
+    {
+      "SETL_NAME": "מגשימים",
+      "SETL_CODE": "722"
+    },
+    {
+      "SETL_NAME": "משמר השבעה",
+      "SETL_CODE": "729"
+    },
+    {
+      "SETL_NAME": "משמר הירדן",
+      "SETL_CODE": "732"
+    },
+    {
+      "SETL_NAME": "רמות מאיר",
+      "SETL_CODE": "735"
+    },
+    {
+      "SETL_NAME": "כפר שמואל",
+      "SETL_CODE": "743"
+    },
+    {
+      "SETL_NAME": "גמזו",
+      "SETL_CODE": "745"
+    },
+    {
+      "SETL_NAME": "ברכיה",
+      "SETL_CODE": "746"
+    },
+    {
+      "SETL_NAME": "ינוב",
+      "SETL_CODE": "753"
+    },
+    {
+      "SETL_NAME": "בית עזרא",
+      "SETL_CODE": "756"
+    },
+    {
+      "SETL_NAME": "מצליח",
+      "SETL_CODE": "757"
+    },
+    {
+      "SETL_NAME": "שתולים",
+      "SETL_CODE": "763"
+    },
+    {
+      "SETL_NAME": "כפר מרדכי",
+      "SETL_CODE": "764"
+    },
+    {
+      "SETL_NAME": "מבוא ביתר",
+      "SETL_CODE": "771"
+    },
+    {
+      "SETL_NAME": "אמונים",
+      "SETL_CODE": "772"
+    },
+    {
+      "SETL_NAME": "יד נתן",
+      "SETL_CODE": "775"
+    },
+    {
+      "SETL_NAME": "אורה",
+      "SETL_CODE": "780"
+    },
+    {
+      "SETL_NAME": "אבן ספיר",
+      "SETL_CODE": "783"
+    },
+    {
+      "SETL_NAME": "בית נחמיה",
+      "SETL_CODE": "784"
+    },
+    {
+      "SETL_NAME": "גבעת יערים",
+      "SETL_CODE": "787"
+    },
+    {
+      "SETL_NAME": "רנן",
+      "SETL_CODE": "789"
+    },
+    {
+      "SETL_NAME": "גבעתי",
+      "SETL_CODE": "793"
+    },
+    {
+      "SETL_NAME": "צלפון",
+      "SETL_CODE": "796"
+    },
+    {
+      "SETL_NAME": "זכריה",
+      "SETL_CODE": "799"
+    },
+    {
+      "SETL_NAME": "חמד",
+      "SETL_CODE": "801"
+    },
+    {
+      "SETL_NAME": "גבעת כ\"ח",
+      "SETL_CODE": "802"
+    },
+    {
+      "SETL_NAME": "אחיסמך",
+      "SETL_CODE": "804"
+    },
+    {
+      "SETL_NAME": "חניאל",
+      "SETL_CODE": "807"
+    },
+    {
+      "SETL_NAME": "שלומי",
+      "SETL_CODE": "812"
+    },
+    {
+      "SETL_NAME": "מטע",
+      "SETL_CODE": "822"
+    },
+    {
+      "SETL_NAME": "בר גיורא",
+      "SETL_CODE": "823"
+    },
+    {
+      "SETL_NAME": "נס הרים",
+      "SETL_CODE": "825"
+    },
+    {
+      "SETL_NAME": "ירוחם",
+      "SETL_CODE": "831"
+    },
+    {
+      "SETL_NAME": "פתחיה",
+      "SETL_CODE": "839"
+    },
+    {
+      "SETL_NAME": "אלישמע",
+      "SETL_CODE": "841"
+    },
+    {
+      "SETL_NAME": "אחיטוב",
+      "SETL_CODE": "850"
+    },
+    {
+      "SETL_NAME": "נווה ירק",
+      "SETL_CODE": "858"
+    },
+    {
+      "SETL_NAME": "גני יוחנן",
+      "SETL_CODE": "862"
+    },
+    {
+      "SETL_NAME": "גינתון",
+      "SETL_CODE": "863"
+    },
+    {
+      "SETL_NAME": "מגדל העמק",
+      "SETL_CODE": "874"
+    },
+    {
+      "SETL_NAME": "בית חירות",
+      "SETL_CODE": "877"
+    },
+    {
+      "SETL_NAME": "כפר הרי\"ף",
+      "SETL_CODE": "888"
+    },
+    {
+      "SETL_NAME": "שבלי - אום אל-גנם",
+      "SETL_CODE": "913"
+    },
+    {
+      "SETL_NAME": "רכסים",
+      "SETL_CODE": "922"
+    },
+    {
+      "SETL_NAME": "בסמת טבעון",
+      "SETL_CODE": "944"
+    },
+    {
+      "SETL_NAME": "טובא-זנגרייה",
+      "SETL_CODE": "962"
+    },
+    {
+      "SETL_NAME": "זרזיר",
+      "SETL_CODE": "975"
+    },
+    {
+      "SETL_NAME": "כעביה-טבאש-חג'אג'רה",
+      "SETL_CODE": "978"
+    },
+    {
+      "SETL_NAME": "חמאם",
+      "SETL_CODE": "993"
+    },
+    {
+      "SETL_NAME": "רומת הייב",
+      "SETL_CODE": "997"
+    },
+    {
+      "SETL_NAME": "מבשרת ציון",
+      "SETL_CODE": "1015"
+    },
+    {
+      "SETL_NAME": "אור עקיבא",
+      "SETL_CODE": "1020"
+    },
+    {
+      "SETL_NAME": "שדרות",
+      "SETL_CODE": "1031"
+    },
+    {
+      "SETL_NAME": "קריית מלאכי",
+      "SETL_CODE": "1034"
+    },
+    {
+      "SETL_NAME": "בית חשמונאי",
+      "SETL_CODE": "1050"
+    },
+    {
+      "SETL_NAME": "נוף הגליל",
+      "SETL_CODE": "1061"
+    },
+    {
+      "SETL_NAME": "מעלות-תרשיחא",
+      "SETL_CODE": "1063"
+    },
+    {
+      "SETL_NAME": "בני עי\"ש",
+      "SETL_CODE": "1066"
+    },
+    {
+      "SETL_NAME": "מבועים",
+      "SETL_CODE": "1080"
+    },
+    {
+      "SETL_NAME": "תושייה",
+      "SETL_CODE": "1083"
+    },
+    {
+      "SETL_NAME": "כפר מימון",
+      "SETL_CODE": "1095"
+    },
+    {
+      "SETL_NAME": "מרכז שפירא",
+      "SETL_CODE": "1098"
+    },
+    {
+      "SETL_NAME": "צוקי ים",
+      "SETL_CODE": "1102"
+    },
+    {
+      "SETL_NAME": "יודפת",
+      "SETL_CODE": "1112"
+    },
+    {
+      "SETL_NAME": "צור הדסה",
+      "SETL_CODE": "1113"
+    },
+    {
+      "SETL_NAME": "שריגים (לי-און)",
+      "SETL_CODE": "1114"
+    },
+    {
+      "SETL_NAME": "שניר",
+      "SETL_CODE": "1132"
+    },
+    {
+      "SETL_NAME": "קריית יערים",
+      "SETL_CODE": "1137"
+    },
+    {
+      "SETL_NAME": "יעד",
+      "SETL_CODE": "1138"
+    },
+    {
+      "SETL_NAME": "כרמיאל",
+      "SETL_CODE": "1139"
+    },
+    {
+      "SETL_NAME": "אחווה",
+      "SETL_CODE": "1157"
+    },
+    {
+      "SETL_NAME": "רהט",
+      "SETL_CODE": "1161"
+    },
+    {
+      "SETL_NAME": "שילת",
+      "SETL_CODE": "1165"
+    },
+    {
+      "SETL_NAME": "קיסריה",
+      "SETL_CODE": "1167"
+    },
+    {
+      "SETL_NAME": "לוטם",
+      "SETL_CODE": "1171"
+    },
+    {
+      "SETL_NAME": "ספיר",
+      "SETL_CODE": "1176"
+    },
+    {
+      "SETL_NAME": "מורשת",
+      "SETL_CODE": "1178"
+    },
+    {
+      "SETL_NAME": "קורנית",
+      "SETL_CODE": "1179"
+    },
+    {
+      "SETL_NAME": "הושעיה",
+      "SETL_CODE": "1186"
+    },
+    {
+      "SETL_NAME": "עדי",
+      "SETL_CODE": "1199"
+    },
+    {
+      "SETL_NAME": "מודיעין-מכבים-רעות",
+      "SETL_CODE": "1200"
+    },
+    {
+      "SETL_NAME": "כמון",
+      "SETL_CODE": "1201"
+    },
+    {
+      "SETL_NAME": "מכמנים",
+      "SETL_CODE": "1202"
+    },
+    {
+      "SETL_NAME": "לבון",
+      "SETL_CODE": "1207"
+    },
+    {
+      "SETL_NAME": "צורית",
+      "SETL_CODE": "1221"
+    },
+    {
+      "SETL_NAME": "כוכב יאיר",
+      "SETL_CODE": "1224"
+    },
+    {
+      "SETL_NAME": "יובלים",
+      "SETL_CODE": "1226"
+    },
+    {
+      "SETL_NAME": "יתד",
+      "SETL_CODE": "1227"
+    },
+    {
+      "SETL_NAME": "רקפת",
+      "SETL_CODE": "1228"
+    },
+    {
+      "SETL_NAME": "פרי גן",
+      "SETL_CODE": "1231"
+    },
+    {
+      "SETL_NAME": "שורשים",
+      "SETL_CODE": "1235"
+    },
+    {
+      "SETL_NAME": "נירית",
+      "SETL_CODE": "1236"
+    },
+    {
+      "SETL_NAME": "תלמי יוסף",
+      "SETL_CODE": "1237"
+    },
+    {
+      "SETL_NAME": "עין הבשור",
+      "SETL_CODE": "1240"
+    },
+    {
+      "SETL_NAME": "דקל",
+      "SETL_CODE": "1241"
+    },
+    {
+      "SETL_NAME": "קציר",
+      "SETL_CODE": "1243"
+    },
+    {
+      "SETL_NAME": "תמרת",
+      "SETL_CODE": "1244"
+    },
+    {
+      "SETL_NAME": "חריש",
+      "SETL_CODE": "1247"
+    },
+    {
+      "SETL_NAME": "אמנון",
+      "SETL_CODE": "1253"
+    },
+    {
+      "SETL_NAME": "כפר ורדים",
+      "SETL_CODE": "1263"
+    },
+    {
+      "SETL_NAME": "כרמי יוסף",
+      "SETL_CODE": "1264"
+    },
+    {
+      "SETL_NAME": "מיתר",
+      "SETL_CODE": "1268"
+    },
+    {
+      "SETL_NAME": "להבים",
+      "SETL_CODE": "1271"
+    },
+    {
+      "SETL_NAME": "גן נר",
+      "SETL_CODE": "1274"
+    },
+    {
+      "SETL_NAME": "נופית",
+      "SETL_CODE": "1284"
+    },
+    {
+      "SETL_NAME": "כרכום",
+      "SETL_CODE": "1285"
+    },
+    {
+      "SETL_NAME": "שגב-שלום",
+      "SETL_CODE": "1286"
+    },
+    {
+      "SETL_NAME": "גבעת אלה",
+      "SETL_CODE": "1288"
+    },
+    {
+      "SETL_NAME": "גבעת אבני",
+      "SETL_CODE": "1293"
+    },
+    {
+      "SETL_NAME": "כפר חנניה",
+      "SETL_CODE": "1297"
+    },
+    {
+      "SETL_NAME": "חורה",
+      "SETL_CODE": "1303"
+    },
+    {
+      "SETL_NAME": "שוהם",
+      "SETL_CODE": "1304"
+    },
+    {
+      "SETL_NAME": "אלעד",
+      "SETL_CODE": "1309"
+    },
+    {
+      "SETL_NAME": "לפיד",
+      "SETL_CODE": "1310"
+    },
+    {
+      "SETL_NAME": "נווה זיו",
+      "SETL_CODE": "1314"
+    },
+    {
+      "SETL_NAME": "מתן",
+      "SETL_CODE": "1315"
+    },
+    {
+      "SETL_NAME": "בת חפר",
+      "SETL_CODE": "1319"
+    },
+    {
+      "SETL_NAME": "אחוזת ברק",
+      "SETL_CODE": "1330"
+    },
+    {
+      "SETL_NAME": "נוף איילון",
+      "SETL_CODE": "1333"
+    },
+    {
+      "SETL_NAME": "אירוס",
+      "SETL_CODE": "1336"
+    },
+    {
+      "SETL_NAME": "שמשית",
+      "SETL_CODE": "1337"
+    },
+    {
+      "SETL_NAME": "אבו קרינאת (יישוב)",
+      "SETL_CODE": "1342"
+    },
+    {
+      "SETL_NAME": "מכחול",
+      "SETL_CODE": "1343"
+    },
+    {
+      "SETL_NAME": "גבעות בר",
+      "SETL_CODE": "1344"
+    },
+    {
+      "SETL_NAME": "צור יצחק",
+      "SETL_CODE": "1345"
+    },
+    {
+      "SETL_NAME": "תראבין א-צאנע(ישוב)",
+      "SETL_CODE": "1346"
+    },
+    {
+      "SETL_NAME": "קצר א-סר",
+      "SETL_CODE": "1347"
+    },
+    {
+      "SETL_NAME": "דריג'את",
+      "SETL_CODE": "1349"
+    },
+    {
+      "SETL_NAME": "אום בטין",
+      "SETL_CODE": "1358"
+    },
+    {
+      "SETL_NAME": "אל סייד",
+      "SETL_CODE": "1359"
+    },
+    {
+      "SETL_NAME": "סעוה",
+      "SETL_CODE": "1360"
+    },
+    {
+      "SETL_NAME": "בת חן",
+      "SETL_CODE": "1361"
+    },
+    {
+      "SETL_NAME": "אליאב",
+      "SETL_CODE": "1365"
+    },
+    {
+      "SETL_NAME": "כחלה",
+      "SETL_CODE": "1367"
+    },
+    {
+      "SETL_NAME": "בני דקלים",
+      "SETL_CODE": "1368"
+    },
+    {
+      "SETL_NAME": "נטע",
+      "SETL_CODE": "1369"
+    },
+    {
+      "SETL_NAME": "כרמי קטיף",
+      "SETL_CODE": "1374"
+    },
+    {
+      "SETL_NAME": "אבו תלול",
+      "SETL_CODE": "1375"
+    },
+    {
+      "SETL_NAME": "באר גנים",
+      "SETL_CODE": "1376"
+    },
+    {
+      "SETL_NAME": "ניצן ב'",
+      "SETL_CODE": "1419"
+    },
+    {
+      "SETL_NAME": "מגדל תפן",
+      "SETL_CODE": "1722"
+    },
+    {
+      "SETL_NAME": "פארק תעשיות עמק חפר",
+      "SETL_CODE": "1745"
+    },
+    {
+      "SETL_NAME": "תנובות",
+      "SETL_CODE": "2002"
+    },
+    {
+      "SETL_NAME": "תלמי אלעזר",
+      "SETL_CODE": "2003"
+    },
+    {
+      "SETL_NAME": "כפר בן נון",
+      "SETL_CODE": "2010"
+    },
+    {
+      "SETL_NAME": "ינון",
+      "SETL_CODE": "2011"
+    },
+    {
+      "SETL_NAME": "בן שמן (מושב)",
+      "SETL_CODE": "2013"
+    },
+    {
+      "SETL_NAME": "שדי חמד",
+      "SETL_CODE": "2015"
+    },
+    {
+      "SETL_NAME": "מנוחה",
+      "SETL_CODE": "2030"
+    },
+    {
+      "SETL_NAME": "חצור הגלילית",
+      "SETL_CODE": "2034"
+    },
+    {
+      "SETL_NAME": "בחן",
+      "SETL_CODE": "2043"
+    },
+    {
+      "SETL_NAME": "סגולה",
+      "SETL_CODE": "2046"
+    },
+    {
+      "SETL_NAME": "שדה צבי",
+      "SETL_CODE": "2049"
+    },
+    {
+      "SETL_NAME": "טירת כרמל",
+      "SETL_CODE": "2100"
+    },
+    {
+      "SETL_NAME": "דימונה",
+      "SETL_CODE": "2200"
+    },
+    {
+      "SETL_NAME": "קרית טבעון",
+      "SETL_CODE": "2300"
+    },
+    {
+      "SETL_NAME": "אור יהודה",
+      "SETL_CODE": "2400"
+    },
+    {
+      "SETL_NAME": "נשר",
+      "SETL_CODE": "2500"
+    },
+    {
+      "SETL_NAME": "באר יעקב",
+      "SETL_CODE": "2530"
+    },
+    {
+      "SETL_NAME": "גדרה",
+      "SETL_CODE": "2550"
+    },
+    {
+      "SETL_NAME": "ערד",
+      "SETL_CODE": "2560"
+    },
+    {
+      "SETL_NAME": "אילת",
+      "SETL_CODE": "2600"
+    },
+    {
+      "SETL_NAME": "בית שמש",
+      "SETL_CODE": "2610"
+    },
+    {
+      "SETL_NAME": "קריית אונו",
+      "SETL_CODE": "2620"
+    },
+    {
+      "SETL_NAME": "קריית גת",
+      "SETL_CODE": "2630"
+    },
+    {
+      "SETL_NAME": "ראש העין",
+      "SETL_CODE": "2640"
+    },
+    {
+      "SETL_NAME": "רמת השרון",
+      "SETL_CODE": "2650"
+    },
+    {
+      "SETL_NAME": "יבנה",
+      "SETL_CODE": "2660"
+    },
+    {
+      "SETL_NAME": "אום אל-פחם",
+      "SETL_CODE": "2710"
+    },
+    {
+      "SETL_NAME": "טירה",
+      "SETL_CODE": "2720"
+    },
+    {
+      "SETL_NAME": "קריית שמונה",
+      "SETL_CODE": "2800"
+    },
+    {
+      "SETL_NAME": "ירושלים",
+      "SETL_CODE": "3000"
+    },
+    {
+      "SETL_NAME": "קדומים",
+      "SETL_CODE": "3557"
+    },
+    {
+      "SETL_NAME": "אלקנה",
+      "SETL_CODE": "3560"
+    },
+    {
+      "SETL_NAME": "תקוע",
+      "SETL_CODE": "3563"
+    },
+    {
+      "SETL_NAME": "אריאל",
+      "SETL_CODE": "3570"
+    },
+    {
+      "SETL_NAME": "חלמיש",
+      "SETL_CODE": "3573"
+    },
+    {
+      "SETL_NAME": "בית אל",
+      "SETL_CODE": "3574"
+    },
+    {
+      "SETL_NAME": "הר גילה",
+      "SETL_CODE": "3603"
+    },
+    {
+      "SETL_NAME": "אלון שבות",
+      "SETL_CODE": "3604"
+    },
+    {
+      "SETL_NAME": "מעלה אפרים",
+      "SETL_CODE": "3608"
+    },
+    {
+      "SETL_NAME": "קריית ארבע",
+      "SETL_CODE": "3611"
+    },
+    {
+      "SETL_NAME": "מעלה אדומים",
+      "SETL_CODE": "3616"
+    },
+    {
+      "SETL_NAME": "עפרה",
+      "SETL_CODE": "3617"
+    },
+    {
+      "SETL_NAME": "אלעזר",
+      "SETL_CODE": "3618"
+    },
+    {
+      "SETL_NAME": "מעלה שומרון",
+      "SETL_CODE": "3637"
+    },
+    {
+      "SETL_NAME": "קרני שומרון",
+      "SETL_CODE": "3640"
+    },
+    {
+      "SETL_NAME": "גבעון החדשה",
+      "SETL_CODE": "3644"
+    },
+    {
+      "SETL_NAME": "מתתיהו",
+      "SETL_CODE": "3648"
+    },
+    {
+      "SETL_NAME": "שקד",
+      "SETL_CODE": "3649"
+    },
+    {
+      "SETL_NAME": "אפרת",
+      "SETL_CODE": "3650"
+    },
+    {
+      "SETL_NAME": "בית אריה",
+      "SETL_CODE": "3652"
+    },
+    {
+      "SETL_NAME": "ברקן",
+      "SETL_CODE": "3654"
+    },
+    {
+      "SETL_NAME": "עמנואל",
+      "SETL_CODE": "3660"
+    },
+    {
+      "SETL_NAME": "עלמון",
+      "SETL_CODE": "3715"
+    },
+    {
+      "SETL_NAME": "תלם",
+      "SETL_CODE": "3719"
+    },
+    {
+      "SETL_NAME": "שערי תקווה",
+      "SETL_CODE": "3720"
+    },
+    {
+      "SETL_NAME": "נווה דניאל",
+      "SETL_CODE": "3725"
+    },
+    {
+      "SETL_NAME": "גבעת זאב",
+      "SETL_CODE": "3730"
+    },
+    {
+      "SETL_NAME": "טנא",
+      "SETL_CODE": "3743"
+    },
+    {
+      "SETL_NAME": "עתניאל",
+      "SETL_CODE": "3748"
+    },
+    {
+      "SETL_NAME": "אלפי מנשה",
+      "SETL_CODE": "3750"
+    },
+    {
+      "SETL_NAME": "מעלה לבונה",
+      "SETL_CODE": "3752"
+    },
+    {
+      "SETL_NAME": "אדורה",
+      "SETL_CODE": "3759"
+    },
+    {
+      "SETL_NAME": "אורנית",
+      "SETL_CODE": "3760"
+    },
+    {
+      "SETL_NAME": "עלי",
+      "SETL_CODE": "3765"
+    },
+    {
+      "SETL_NAME": "כרמי צור",
+      "SETL_CODE": "3766"
+    },
+    {
+      "SETL_NAME": "הר אדר",
+      "SETL_CODE": "3769"
+    },
+    {
+      "SETL_NAME": "חשמונאים",
+      "SETL_CODE": "3770"
+    },
+    {
+      "SETL_NAME": "עץ אפרים",
+      "SETL_CODE": "3778"
+    },
+    {
+      "SETL_NAME": "ביתר עילית",
+      "SETL_CODE": "3780"
+    },
+    {
+      "SETL_NAME": "שמעה",
+      "SETL_CODE": "3784"
+    },
+    {
+      "SETL_NAME": "בת עין",
+      "SETL_CODE": "3794"
+    },
+    {
+      "SETL_NAME": "כפר האורנים",
+      "SETL_CODE": "3796"
+    },
+    {
+      "SETL_NAME": "מודיעין עילית",
+      "SETL_CODE": "3797"
+    },
+    {
+      "SETL_NAME": "גני מודיעין",
+      "SETL_CODE": "3823"
+    },
+    {
+      "SETL_NAME": "חיפה",
+      "SETL_CODE": "4000"
+    },
+    {
+      "SETL_NAME": "קצרין",
+      "SETL_CODE": "4100"
+    },
+    {
+      "SETL_NAME": "תל אביב -יפו",
+      "SETL_CODE": "5000"
+    },
+    {
+      "SETL_NAME": "בני ברק",
+      "SETL_CODE": "6100"
+    },
+    {
+      "SETL_NAME": "בת ים",
+      "SETL_CODE": "6200"
+    },
+    {
+      "SETL_NAME": "גבעתיים",
+      "SETL_CODE": "6300"
+    },
+    {
+      "SETL_NAME": "הרצלייה",
+      "SETL_CODE": "6400"
+    },
+    {
+      "SETL_NAME": "חדרה",
+      "SETL_CODE": "6500"
+    },
+    {
+      "SETL_NAME": "חולון",
+      "SETL_CODE": "6600"
+    },
+    {
+      "SETL_NAME": "טבריה",
+      "SETL_CODE": "6700"
+    },
+    {
+      "SETL_NAME": "קריית אתא",
+      "SETL_CODE": "6800"
+    },
+    {
+      "SETL_NAME": "כפר סבא",
+      "SETL_CODE": "6900"
+    },
+    {
+      "SETL_NAME": "לוד",
+      "SETL_CODE": "7000"
+    },
+    {
+      "SETL_NAME": "אשקלון",
+      "SETL_CODE": "7100"
+    },
+    {
+      "SETL_NAME": "נס ציונה",
+      "SETL_CODE": "7200"
+    },
+    {
+      "SETL_NAME": "נצרת",
+      "SETL_CODE": "7300"
+    },
+    {
+      "SETL_NAME": "נתניה",
+      "SETL_CODE": "7400"
+    },
+    {
+      "SETL_NAME": "סח'נין",
+      "SETL_CODE": "7500"
+    },
+    {
+      "SETL_NAME": "עכו",
+      "SETL_CODE": "7600"
+    },
+    {
+      "SETL_NAME": "עפולה",
+      "SETL_CODE": "7700"
+    },
+    {
+      "SETL_NAME": "פרדס חנה-כרכור",
+      "SETL_CODE": "7800"
+    },
+    {
+      "SETL_NAME": "פתח תקווה",
+      "SETL_CODE": "7900"
+    },
+    {
+      "SETL_NAME": "צפת",
+      "SETL_CODE": "8000"
+    },
+    {
+      "SETL_NAME": "קריית מוצקין",
+      "SETL_CODE": "8200"
+    },
+    {
+      "SETL_NAME": "ראשון לציון",
+      "SETL_CODE": "8300"
+    },
+    {
+      "SETL_NAME": "רחובות",
+      "SETL_CODE": "8400"
+    },
+    {
+      "SETL_NAME": "רמלה",
+      "SETL_CODE": "8500"
+    },
+    {
+      "SETL_NAME": "רמת גן",
+      "SETL_CODE": "8600"
+    },
+    {
+      "SETL_NAME": "רעננה",
+      "SETL_CODE": "8700"
+    },
+    {
+      "SETL_NAME": "שפרעם",
+      "SETL_CODE": "8800"
+    },
+    {
+      "SETL_NAME": "באר שבע",
+      "SETL_CODE": "9000"
+    },
+    {
+      "SETL_NAME": "נהרייה",
+      "SETL_CODE": "9100"
+    },
+    {
+      "SETL_NAME": "בית שאן",
+      "SETL_CODE": "9200"
+    },
+    {
+      "SETL_NAME": "זכרון יעקב",
+      "SETL_CODE": "9300"
+    },
+    {
+      "SETL_NAME": "יהוד-מונוסון",
+      "SETL_CODE": "9400"
+    },
+    {
+      "SETL_NAME": "קריית ביאליק",
+      "SETL_CODE": "9500"
+    },
+    {
+      "SETL_NAME": "קריית ים",
+      "SETL_CODE": "9600"
+    },
+    {
+      "SETL_NAME": "הוד השרון",
+      "SETL_CODE": "9700"
+    },
+    {
+      "SETL_NAME": "בנימינה-גבעת עדה",
+      "SETL_CODE": "9800"
+    },
+    {
+      "SETL_NAME": "טל מנשה",
+      "SETL_CODE": "10054"
+    },
+    {
+      "SETL_NAME": "שבות רחל",
+      "SETL_CODE": "10146"
+    }
+  ]
+}

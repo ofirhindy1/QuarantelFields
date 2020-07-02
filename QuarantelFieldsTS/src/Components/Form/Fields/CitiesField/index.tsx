@@ -1,38 +1,13 @@
 import React from "react";
 import MenuItem from "@material-ui/core/MenuItem";
 import Select from "@material-ui/core/Select";
-// import CITIES_AND_STREETS from "../../../../utils/CITIES_AND_STREETS.json";
-
-// import InputLabel from "@material-ui/core/InputLabel";
-
-const CITIES: any[] = [
-  {
-    "1": "חיפה",
-  },
-  {
-    "2": "חדרה",
-  },
-  {
-    "3": "תל אביב",
-  },
-  {
-    "4": "נתניה",
-  },
-  {
-    "5": "בת ים",
-  },
-  {
-    "6": "נהריה",
-  },
-  {
-    "7": "רחובות",
-  },
-];
+import CITIES from "../../../../utils/CITIES.json";
+import InputLabel from "@material-ui/core/InputLabel";
 
 interface CitiesProps {
   cityIndex: Number;
   setCityIndex: any;
-  errors: any;
+  errors: boolean;
 }
 const Form: React.FC<CitiesProps> = ({ setCityIndex, cityIndex, errors }) => {
   const handleChange = (event: any) => {
@@ -41,15 +16,27 @@ const Form: React.FC<CitiesProps> = ({ setCityIndex, cityIndex, errors }) => {
 
   return (
     <div className="App">
+      <InputLabel
+        style={{
+          justifyContent: "flex-end",
+          display: "flex",
+          width: "100%",
+          fontWeight: "bold",
+        }}>
+        אנא בחר עיר
+      </InputLabel>
       <Select
+        style={{ width: "100%" }}
         value={cityIndex}
         onChange={handleChange}
         variant="outlined"
         required
         error={errors}>
-        {CITIES.map((city, index) => (
-          <MenuItem value={index + 1} key={index + 1}>
-            {city[index + 1]}
+        {CITIES.CITIES.sort((city1, city2) =>
+          city1.SETL_NAME.localeCompare(city2.SETL_NAME)
+        ).map((city) => (
+          <MenuItem value={city.SETL_CODE} key={city.SETL_CODE}>
+            {city.SETL_NAME}
           </MenuItem>
         ))}
       </Select>

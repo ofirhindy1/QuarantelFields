@@ -1,40 +1,9 @@
 import React from "react";
 import MenuItem from "@material-ui/core/MenuItem";
 import { Select } from "@material-ui/core";
-
-const STREETS: Object[] = [
-  {
-    "1100": "שכונה א",
-  },
-  {
-    "1101": "שכונה ב",
-  },
-  {
-    "2102": "שכונה ג",
-  },
-  {
-    "2100": "שכונה ד",
-  },
-  {
-    "3101": "שכונה ה",
-  },
-  {
-    "4102": "שכונה ו",
-  },
-
-  {
-    "5102": "שכונה ז",
-  },
-  {
-    "6101": "שכונה ח",
-  },
-  {
-    "7101": "שכונה ט",
-  },
-  {
-    "7102": "שכונה י",
-  },
-];
+import cogoToast from "cogo-toast";
+import STREETS from "../../../../utils/STREETS.json";
+import InputLabel from "@material-ui/core/InputLabel";
 
 interface StreetsProps {
   streetIndex: Number;
@@ -56,20 +25,30 @@ const StreetsField: React.FC<StreetsProps> = ({
   };
   return (
     <div className="App">
+      <InputLabel
+        style={{
+          justifyContent: "flex-end",
+          display: "flex",
+          width: "100%",
+          fontWeight: "bold",
+        }}>
+        אנא בחר רחוב
+      </InputLabel>
       <Select
+        style={{ width: "100%" }}
         required
         value={streetIndex}
         onChange={handleChange}
+        onClick={(e) => !cityIndex && cogoToast.error("אנא הזן עיר")}
         disabled={!cityIndex}
         variant="outlined"
         error={errors}>
-        {STREETS.map(
-          (street, index) =>
-            parseInt(Object.keys(street)[0].substr(0, 1)) === cityIndex && (
-              <MenuItem
-                value={Object.keys(street)[0]}
-                key={Object.keys(street)[0]}>
-                {Object.values(street)[0]}
+        {STREETS.STREETS.map(
+          (street) =>
+            street.STR_ID.slice(-street.STR_ID.length, -4) ===
+              cityIndex.toString() && (
+              <MenuItem value={street.STR_ID} key={street.STR_ID}>
+                {street.STR_NAME}
               </MenuItem>
             )
         )}
