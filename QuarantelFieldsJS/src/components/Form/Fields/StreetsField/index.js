@@ -9,7 +9,13 @@ import InputLabel from "@material-ui/core/InputLabel";
  * @param setHomeNum - the function that changes the home number
  * @param cityIndex - the selcted city index (as in the provided indexes)
  */
-const StreetsField = ({ streetIndex, setStreetIndex, cityIndex, errors }) => {
+const StreetsField = ({
+  streetIndex,
+  setStreetIndex,
+  cityIndex,
+  errors,
+  setStreetName,
+}) => {
   // console.log(streetIndex);
 
   const handleChange = (event) => {
@@ -23,7 +29,8 @@ const StreetsField = ({ streetIndex, setStreetIndex, cityIndex, errors }) => {
           display: "flex",
           width: "100%",
           fontWeight: "bold",
-        }}>
+        }}
+      >
         אנא בחר רחוב
       </InputLabel>
 
@@ -34,13 +41,18 @@ const StreetsField = ({ streetIndex, setStreetIndex, cityIndex, errors }) => {
         onClick={(e) => !cityIndex && cogoToast.error("אנא הזן עיר")}
         disabled={!cityIndex}
         variant="outlined"
-        error={errors}>
+        error={errors}
+      >
         {STREETS.STREETS.sort((street1, street2) =>
           street1.STR_NAME.localeCompare(street2.STR_NAME)
         ).map(
           (street) =>
             street.STR_ID.slice(-street.STR_ID.length, -4) === cityIndex && (
-              <MenuItem value={street.STR_ID} key={street.STR_ID}>
+              <MenuItem
+                onClick={(e) => setStreetName(street.STR_NAME)}
+                value={street.STR_ID}
+                key={street.STR_ID}
+              >
                 {street.STR_NAME}
               </MenuItem>
             )

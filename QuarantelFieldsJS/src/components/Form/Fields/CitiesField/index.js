@@ -7,7 +7,8 @@ import InputLabel from "@material-ui/core/InputLabel";
 /**@param cityIndex - the selcted city index (as in the provided indexes)
  * @param setCityIndex - the function that changes the city
  */
-const Form = ({ setCityIndex, cityIndex, errors }) => {
+const Form = ({ setCityIndex, cityIndex, errors, setCityName }) => {
+  // console.log(cityIndex)
   const handleChange = (event) => {
     // console.log(event.target.value);
     setCityIndex(event.target.value);
@@ -21,7 +22,8 @@ const Form = ({ setCityIndex, cityIndex, errors }) => {
           display: "flex",
           width: "100%",
           fontWeight: "bold",
-        }}>
+        }}
+      >
         אנא בחר עיר
       </InputLabel>
       <Select
@@ -30,11 +32,16 @@ const Form = ({ setCityIndex, cityIndex, errors }) => {
         onChange={handleChange}
         variant="outlined"
         required
-        error={errors}>
+        error={errors}
+      >
         {CITIES.CITIES.sort((city1, city2) =>
           city1.SETL_NAME.localeCompare(city2.SETL_NAME)
         ).map((city) => (
-          <MenuItem value={city.SETL_CODE} key={city.SETL_CODE}>
+          <MenuItem
+            onClick={(e) => setCityName(city.SETL_NAME)}
+            value={city.SETL_CODE}
+            key={city.SETL_CODE}
+          >
             {city.SETL_NAME}
           </MenuItem>
         ))}

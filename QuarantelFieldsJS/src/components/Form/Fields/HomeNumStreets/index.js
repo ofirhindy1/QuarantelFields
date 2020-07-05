@@ -25,7 +25,8 @@ const HomeNumField = ({ streetIndex, setHomeNum, homeNum, errors }) => {
           display: "flex",
           width: "100%",
           fontWeight: "bold",
-        }}>
+        }}
+      >
         אנא בחר מספר בית
       </InputLabel>
       <TextField
