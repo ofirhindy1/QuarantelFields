@@ -78,7 +78,7 @@ const MarkerDisplay = ({ cityName, setViewPort, streetName, homeNum }) => {
     //   key={cityName}>
       latlng !== [0, 0] && (
         <Marker key={cityName} position={latlng} icon={defIcon}>
-          <Popup>{cityName}</Popup>
+          <Popup>{`${streetName}, ${homeNum}, ${cityName}`}</Popup>
         </Marker>
       )
     // </Polygon>
