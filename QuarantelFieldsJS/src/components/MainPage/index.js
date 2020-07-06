@@ -5,11 +5,17 @@ import Map from "../Map/index";
 function MainPage() {
   const [cityName, setCityName] = useState("");
   const [streetName, setStreetName] = useState("");
+  const [homeNum, setHomeNum] = useState("");
 
   return (
     <div style={{ display: "flex", direction: "rtl" }}>
-      <Form setCityName={setCityName} setStreetName={setStreetName} />
-      <Map cityName={cityName} streetName={streetName} />
+      <Form
+        setCityName={setCityName}
+        setStreetName={setStreetName}
+        setHomeNum={setHomeNum}
+        homeNum={homeNum}
+      />
+      <Map cityName={cityName} streetName={streetName} homeNum={homeNum} />
     </div>
   );
 }

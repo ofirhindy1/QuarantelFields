@@ -3,15 +3,8 @@ import Leaflet from "leaflet";
 import { Map } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { makeStyles } from "@material-ui/core/styles";
-// // import Context from "../Context";
-// import ControlPanel from "../ControlPanel/ControlPanel";
-// import PolygonsDraw from "./PolygonsDraw/PolygonsDraw";
-// import SchoolArrowDraw from "./SchoolArrowDraw/SchoolArrowDraw";
-// import SchoolsDrawOnMap from "./SchoolsDrawOnMap/SchoolsDrawOnMap";
-// import useGlobalState from "../../GlobalStates/MapStates/state";
 import ReactLeafletGoogleLayer from "react-leaflet-google-layer";
 import MarkerDisplay from "./MarkerDisplay";
-// import Loader from "../Loader/Loader";
 
 Leaflet.Icon.Default.imagePath = "../node_modules/leaflet";
 delete Leaflet.Icon.Default.prototype._getIconUrl;
@@ -33,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const MapDispaly = ({ cityName, streetName }) => {
+const MapDispaly = ({ cityName, streetName, homeNum }) => {
   const [viewport, setViewPort] = useState({
     center: [31.93886, 34.84055],
     zoom: 10,
@@ -48,23 +41,11 @@ const MapDispaly = ({ cityName, streetName }) => {
         }}
         type="roadmap"
       />
-      {/* <TileLayer
-        attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        // url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png"
-        //  url='https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png'
-        // url={"https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png"}
-        // url={"https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png"}
-        // url={
-        //   "https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey={AIzaSyDkG702RFFEEm08CP87sLK_amm-ru_eUVs}"
-        // }
-        // url={'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png'}
-        // url={'https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png'}
-        // apiKey={"AIzaSyDkG702RFFEEm08CP87sLK_amm-ru_eUVs"}
-      /> */}
       <MarkerDisplay
         cityName={cityName}
         setViewPort={setViewPort}
         streetName={streetName}
+        homeNum={homeNum}
       />
     </Map>
   );

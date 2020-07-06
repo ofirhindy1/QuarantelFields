@@ -5,13 +5,15 @@ import Fields from "./Fields";
 const ProvidedTheme = {
   color: "red",
 };
-function Form({ setCityName, setStreetName }) {
+function Form({ setCityName, setStreetName, setHomeNum, homeNum }) {
   return (
     <div className="App" style={{ display: "flex", justifyContent: "center" }}>
       <Fields
         ProvidedTheme={ProvidedTheme}
         setCityName={setCityName}
         setStreetName={setStreetName}
+        setHomeNum={setHomeNum}
+        homeNum={homeNum}
       />
     </div>
   );

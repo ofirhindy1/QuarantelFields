@@ -8,15 +8,6 @@ import InputLabel from "@material-ui/core/InputLabel";
  * @param homeNum - the selcted home number
  */
 const HomeNumField = ({ streetIndex, setHomeNum, homeNum, errors }) => {
-  // const handleChange = (e) => {
-  //   if (e.target.value > 0) {
-  //     setHomeNum(e.target.value);
-  //   } else {
-  //     CogoToast.error("מספר בית אינו תקין", 3);
-  //     setHomeNum("");
-  //   }
-  // };
-
   return (
     <div className="App">
       <InputLabel
@@ -25,8 +16,7 @@ const HomeNumField = ({ streetIndex, setHomeNum, homeNum, errors }) => {
           display: "flex",
           width: "100%",
           fontWeight: "bold",
-        }}
-      >
+        }}>
         אנא בחר מספר בית
       </InputLabel>
       <TextField

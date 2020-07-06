@@ -28,7 +28,13 @@ const validateField = (cityIndex, streetIndex, homeNum) => {
 
   return isValid;
 };
-function AllFields({ ProvidedTheme, setCityName, setStreetName }) {
+function AllFields({
+  ProvidedTheme,
+  setCityName,
+  setStreetName,
+  setHomeNum,
+  homeNum,
+}) {
   const [cityIndex, setCityIndex] = useState(0);
   const [errors, setErrors] = useState({
     city: false,
@@ -37,7 +43,7 @@ function AllFields({ ProvidedTheme, setCityName, setStreetName }) {
   });
 
   const [streetIndex, setStreetIndex] = useState(0);
-  const [homeNum, setHomeNum] = useState("");
+  // const [homeNum, setHomeNum] = useState("");
 
   const handleClick = () => {
     const isFieldValid = validateField(cityIndex, streetIndex, homeNum);
@@ -61,8 +67,7 @@ function AllFields({ ProvidedTheme, setCityName, setStreetName }) {
         padding: "36px",
         justifyContent: "center",
         marginTop: "150px",
-      }}
-    >
+      }}>
       <div className="App">
         {" "}
         <div>
@@ -91,8 +96,7 @@ function AllFields({ ProvidedTheme, setCityName, setStreetName }) {
             variant="contained"
             color="primary"
             className={classes.button}
-            onClick={handleClick}
-          >
+            onClick={handleClick}>
             שלח
           </Button>
         </div>
